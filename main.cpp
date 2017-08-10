@@ -161,7 +161,7 @@ void process_line(vector<Piece> &  P_list, int tab[nb_line], sf::RenderWindow & 
 				}
 			}
 			bool change = true;
-			while (change){//the line has benn deleted, the pieces are falling
+			while (change){//the line has been deleted, the pieces are falling
 				change = false;
 				for (int j = 0; j < P_list.size(); j++){
 					P_list[j].fall = true;
